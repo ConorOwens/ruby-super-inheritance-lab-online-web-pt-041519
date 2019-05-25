@@ -13,7 +13,7 @@ class ChattyStudent < Student
     until counter == 10 
       puts "Pick me!"
       counter += 1
-      binding.pry
+      #binding.pry
     end
   end
   
