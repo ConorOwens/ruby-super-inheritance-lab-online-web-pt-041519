@@ -1,5 +1,3 @@
-require 'pry'
-
 class ChattyStudent < Student
   
   def hello
@@ -13,7 +11,6 @@ class ChattyStudent < Student
     until counter == 9 
       puts "Pick me!"
       counter += 1
-      #binding.pry
     end
   end
   
