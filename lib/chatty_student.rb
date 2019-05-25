@@ -1,3 +1,5 @@
+require 'pry'
+
 class ChattyStudent < Student
   
   def hello
@@ -11,6 +13,7 @@ class ChattyStudent < Student
     unless counter == 10 
       puts "Pick me!"
       counter += 1
+      binding.pry
     end
   end
   
